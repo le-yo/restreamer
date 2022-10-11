@@ -1,6 +1,21 @@
 {
-    "channel_id":  "",
+    "channel_id": "",
     "youtube_oauth": {
-        "secrets_file": ""
-    }
+        "secrets_file": "",
+        "token_file": ""
+    },
+    "restream_privacy": "public",
+    "restream_title_format": "Mirror: Test",
+    "restream_description_format": "This is a restream of . Original stream: Test",
+    "restream_start_delay": 10,
+    "services": {
+        "telegram": {
+            "rtmp_url":  "",
+            "rtmp_key":  ""
+        } 
+    },
+    "youtube_search_interval":  60,
+    "ffmpeg_bin": "/path/to/ffmpeg",
+    "ffprobe_bin": "/path/to/ffprobe",
+    "ffmpeg_log_dir": "logs/"
 }
